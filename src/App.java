@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("This is my first JAVA Project!");
+       Slice_o_Heaven pizza= new Slice_o_Heaven();
+       pizza.takeOrder(" Ivy", 20.00);
+      
+
     }
 }
