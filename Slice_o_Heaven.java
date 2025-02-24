@@ -45,7 +45,6 @@ public class Slice_o_Heaven{
         System.out.println("******RECEIPPT******");
 
         System.out.println("Order ID"+orderID);
-        System.out.println("Order Details"+pizzaIngredints);
         System.out.println("Order Total"+orderTotal);
 
     }
