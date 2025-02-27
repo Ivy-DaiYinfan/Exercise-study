@@ -14,6 +14,11 @@ public class Slice_o_Heaven{
     private String orderID;
     private double orderTotal;
 
+    public final String DEF_ORDER_ID = DEF-SOH-99;
+    public final String DEF_PIZZA_INGREDIENTS ;
+    public final double DEF_ORDER_TOTAL;
+
+
     public void takeOrder(String id,double total){
         orderID = id;
         orderTotal = total;
@@ -50,6 +55,12 @@ public class Slice_o_Heaven{
 
     }
 
+    //
+
+
+    public Slice_o_Heaven(){
+        
+    }
 
 
 }
