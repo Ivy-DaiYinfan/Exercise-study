@@ -1,8 +1,7 @@
+package exercise3;
 public class Slice_o_Heaven{
     public String storeAddress;
-
     private String storeMenu;
-    
     public String storeName;
     public long storePhone;
     public String storeEmail;
@@ -10,7 +9,6 @@ public class Slice_o_Heaven{
     public double pizzaPrice;
     public String sides;
     public String drinks;
-
     private String orderID;
     private double orderTotal;
 
